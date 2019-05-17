@@ -354,7 +354,8 @@ aside .content-wrapper .form {
 
         }
 
-.features h1 {
+.features h2 {
+  width: 70%;
   padding-left: 50px;
 }
 
@@ -363,20 +364,24 @@ aside .content-wrapper .form {
         }
 
 /* Reviews */
-.reviews h1{
+.reviews h2 {
   display: flex;
   justify-content: center;
-  width: 60%;
+  width: 40%;
   margin: 0;
+  padding-left: 40px;
+  }
 
-        }
-
+.reviews h3 {
+  padding-left: 50px;
+}
 .reviews article {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
   width: 50%;
-  padding-left:
+  padding-left: 50px;
+
 }
 
 
@@ -393,6 +398,7 @@ footer .content-wrapper {
   display: flex;
   justify-content: center;
   width: 50%;
+  flex-flow: row wrap;
 
         }
 
@@ -401,7 +407,7 @@ footer .contact {
         }
 
 footer .copyright {
-            width:
+        width:25%;
         }
 
 
@@ -423,6 +429,69 @@ footer .copyright {
 
 /*Desktop styles here*/
 
+.content-wrapper {
+  max-width: 960px;
+}
+
+/* Hero */
+.hero-area h1 {
+        width: 100%;
+        padding-left: 50px;
+    }
+
+    /* Aside */
+aside .content-wrapper {
+        justify-content: space-around;
+    }
+
+aside .content-wrapper .form-description,
+aside .content-wrapper .form {
+        width: 20%;
+          }
+
+    /* Features */
+.features h2 {
+        width: 100%;
+    }
+
+.features article {
+      justify-content: center;
+      align-items: center;
+        flex-basis: 30%;
+        text-align: center;
+    }
+
+    /* Reviews */
+.reviews article div {
+        width: 50%;
+    }
+
+footer .content-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+footer .contact-content {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+footer .copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
 
 
 }
